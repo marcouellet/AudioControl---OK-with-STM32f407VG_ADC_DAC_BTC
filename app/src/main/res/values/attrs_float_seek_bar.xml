@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IntegerSeekBar">
+        <attr name="intMax" format="integer" />
+        <attr name="intMin" format="integer" />
+    </declare-styleable>
+
+</resources>

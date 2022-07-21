@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Audio Control</string>
+    <string name="btn_apply_profile">Apply</string>
+    <string name="btn_delete_profile">Delete</string>
+    <string name="new_profile_add">Add new</string>
+    <string name="audioType_volume">Volume</string>
+    <string name="audioType_bass">Bass</string>
+    <string name="audioType_treble">Treble</string>
+    <string name="audioType_balance">Balance</string>
+    <string name="defaultProfileName">Profile</string>
+    <string name="audio_profile_screen_title">Audio profile</string>
+    <string name="audio_profile_screen_hint">Save audio profile to apply it later. Profiles are saved as the app launcher icon shortcuts and on the app main page.</string>
+    <string name="audio_profile_name_placeholder">Profile name</string>
+    <string name="save">Save</string>
+    <string name="main_screen_current_audio_setting_title">Current audio setting</string>
+    <string name="main_screen_profiles_title">Audio profiles</string>
+    <string name="settings">Settings</string>
+    <string name="settings_darktheme">Dark theme</string>
+    <string name="volumeType_media">Media</string>
+    <string name="notification_widget">Click to open app, swipe down to extend</string>
+    <string name="notification_widget_featured">Click to open app</string>
+
+    <string name="volume_types_in_widget">Volume types in widget</string>
+
+    <string name="settings_notification_widget">Notification widget</string>
+    <string name="settings_notification_widget_profiles">Show profiles in notification widget</string>
+
+    <string name="delete_profile_button">Delete %1$s profile</string>
+    <string name="apply_profile_button">Delete %1$s profile</string>
+
+    <string name="volume_switch">%1$s volume type level</string>
+    <string name="device_levels_unavailable">Unavailable</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

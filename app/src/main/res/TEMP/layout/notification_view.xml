@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_notification_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/notification_icon"
+        android:tint="@android:color/black" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/app_icon"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        style="@style/TextAppearance.Compat.Notification"
+        android:layout_toEndOf="@+id/app_icon"
+        android:text="@string/app_name"
+        android:layout_toRightOf="@+id/app_icon" />
+
+    <ImageView
+        android:id="@+id/remove_notification_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/ic_close_black_18dp" />
+
+    <LinearLayout
+        android:id="@+id/volume_sliders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_icon"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" />
+
+    <GridLayout
+        android:id="@+id/notifications_user_profiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volume_sliders"
+        android:columnCount="4"
+        android:rowCount="4" />
+
+</RelativeLayout>
+

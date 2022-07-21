@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:labelFor="@+id/seek_bar"
+        style="@style/VolumeLevel_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/current_value"
+        style="@style/VolumeLevel_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignTop="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        tools:text="100%" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-10dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/vibrate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seek_bar"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/vibrate_mode"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/vibrate_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/vibrate_text"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/vibrate_text"
+        android:layout_toRightOf="@+id/vibrate_text"
+        android:entries="@array/vibrate_settings"
+        android:visibility="gone" />
+
+</RelativeLayout>

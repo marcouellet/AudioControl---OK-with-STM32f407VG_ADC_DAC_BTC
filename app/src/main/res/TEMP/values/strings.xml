@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Volume Control</string>
+    <string name="main_menu_silence">Silence</string>
+    <string name="main_menu_silence_off">Full volume</string>
+    <string name="btn_apply_profile">Apply</string>
+    <string name="btn_delete_profile">Delete</string>
+    <string name="new_profile_add">Add new</string>
+    <string name="volumeType_alarm">Alarm</string>
+    <string name="volumeType_media">Media</string>
+    <string name="volumeType_voiceCall">Voice call</string>
+    <string name="volumeType_ring">Ring</string>
+    <string name="volumeType_notifications">Notification</string>
+    <string name="volumeType_systemSounds">System sounds</string>
+    <string name="volumeType_dtmf">DTMF tokens</string>
+    <string name="volumeType_accessibility">Accessibility</string>
+    <string name="defaultProfileName">Profile</string>
+    <string name="volume_profile_screen_title">Volume profile</string>
+    <string name="volume_profile_screen_hint">Save sound profile to apply it later. Profiles are saved as the app launcher icon shortcuts and on the app main page.</string>
+    <string name="volume_profile_name_placeholder">Profile name</string>
+    <string name="save">Save</string>
+    <string name="main_screen_current_volume_title">Current volume</string>
+    <string name="main_screen_profiles_title">Sound profiles</string>
+    <string name="settings">Settings</string>
+    <string name="settings_darktheme">Dark theme</string>
+    <string name="settings_extended_volume_settings">Extended volume settings</string>
+    <string name="settings_android_sound_settings">Android sound settings</string>
+    <string name="rate_this_app">Rate app</string>
+    <string name="vibrate_mode">Vibrate mode</string>
+    <string name="silence">Silence</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="ring">Ring</string>
+    <string name="notification_widget">Click to open app, swipe down to extend</string>
+    <string name="notification_widget_featured">Click to open app</string>
+
+    <string name="settings_notification_widget">Notification widget</string>
+    <string name="settings_notification_widget_profiles">Show profiles in notification widget</string>
+
+    <string name="dnd_permission_title">The app requires access to the "Do Not Disturb" permission</string>
+    <string name="dnd_permission_message">This permission is required to be able to change volume and select sound profiles in Do Not Disturb mode</string>
+    <string name="volume_types_in_widget">Volume types in widget</string>
+
+    <string-array name="vibrate_settings">
+        <item>Always on</item>
+        <item>Always off</item>
+        <item>Only in silent mode</item>
+    </string-array>
+
+    <string name="acra_dialog_title">Send crash report</string>
+    <string name="acra_dialog_message">Sorry, the application crashed. Send crash report to the developer by email?</string>
+
+    <string name="delete_profile_button">Delete %1$s profile</string>
+    <string name="apply_profile_button">Delete %1$s profile</string>
+
+    <string name="volume_switch">%1$s volume type level</string>
+</resources>
